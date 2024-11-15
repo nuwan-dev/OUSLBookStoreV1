@@ -27,6 +27,9 @@
 
 .bkstore-top-nav-container-dekstop {
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 9;
 }
 .bkstore-top-nav-container-dekstop .top-nav-inner {
   margin: auto;
@@ -159,11 +162,19 @@
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.bkstore-store-container .store-inner .sigle-book h2, .bkstore-store-container .store-inner .sigle-book h3 {
+.bkstore-store-container .store-inner .sigle-book h2,
+.bkstore-store-container .store-inner .sigle-book h3 {
   text-align: center;
 }
 .bkstore-store-container .store-inner .sigle-book div {
   margin: auto;
+}
+
+.scroll-header {
+  background: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 /*# sourceMappingURL=Main.css.map */
