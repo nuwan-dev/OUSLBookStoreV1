@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.bkstore-top-bar-container {
+  width: 100%;
+  background-color: #000;
+  padding: 10px 0;
+}
+.bkstore-top-bar-container .top-bar-inner {
+  max-width: 1280px;
+  margin: auto;
+}
+.bkstore-top-bar-container .top-bar-inner h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 14px;
+}
+
+.bkstore-top-nav-container-dekstop {
+  width: 100%;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner {
+  margin: auto;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper {
+  width: 100%;
+  padding: 10px 0;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper .upper-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper .upper-inner .nav-upper-left .logo img {
+  width: 200px;
+  height: auto;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper .upper-inner .nav-upper-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 5px;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper .upper-inner .nav-upper-right input[type=text] {
+  border: 1px solid #abb8c3;
+  border-radius: 5px;
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  .bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-upper .upper-inner {
+    justify-content: center;
+    row-gap: 10px;
+  }
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-lower {
+  width: 100%;
+  background-color: #e05b1d;
+  padding: 10px 0;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-lower .lower-inner {
+  max-width: 1280px;
+  margin: auto;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-lower .lower-inner .top-nav ul {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-lower .lower-inner .top-nav ul li {
+  list-style: none;
+}
+.bkstore-top-nav-container-dekstop .top-nav-inner .top-nav-lower .lower-inner .top-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bkstore-hero-container {
+  width: 100%;
+  background-image: url("../Assets/5.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.bkstore-hero-container .hero-inner {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 0 20px;
+}
+.bkstore-hero-container .hero-inner h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+.bkstore-hero-container .hero-inner a {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #e05b1d;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 480px) {
+  .bkstore-hero-container .hero-inner h1 {
+    font-size: 22px;
+  }
+}
+
+.bkstore-store-container {
+  width: 100%;
+}
+.bkstore-store-container .store-inner {
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  gap: 10px;
+}
+.bkstore-store-container .store-inner .sigle-book {
+  flex: 1;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.bkstore-store-container .store-inner .sigle-book img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  border-radius: inherit;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.bkstore-store-container .store-inner .sigle-book h2, .bkstore-store-container .store-inner .sigle-book h3 {
+  text-align: center;
+}
+.bkstore-store-container .store-inner .sigle-book div {
+  margin: auto;
+}
+
+/*# sourceMappingURL=Main.css.map */
