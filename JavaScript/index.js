@@ -47,9 +47,8 @@ const books = [
 ];
 
 function showBooks(bookList = books) {
-  document.getElementById("storeContainer").innerHTML = bookList
-    .map(
-      (book) => `
+  document.getElementById("storeContainer").innerHTML = bookList.map(
+    (book) => `
         <div class="sigle-book">
             <img src="${book.image}">
             <h2>${book.title}</h2>
@@ -60,7 +59,7 @@ function showBooks(bookList = books) {
             </div>
         </div>
     `
-    )
-    // .join("");
+  ).join("");
 }
 showBooks();
+
